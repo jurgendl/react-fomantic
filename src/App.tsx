@@ -1,10 +1,10 @@
 import './App.scss'
-import {CheckboxDemo} from "./AppCheckbox.tsx";
+import {CheckboxDemoAlt} from "./CheckboxDemoAlt.tsx";
 
 function App() {
 	return (
 		<>
-			<CheckboxDemo />
+			<CheckboxDemoAlt />
 		</>
 	)
 }
