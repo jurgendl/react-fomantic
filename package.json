@@ -1,19 +1,28 @@
 {
 	"name": "react-fomantic",
+	"description": "react-fomantic",
+	"keywords": [],
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"license": "UNLICENSED",
 	"scripts": {
 		"dev": "vite",
+		"preview": "vite preview",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
-		"preview": "vite preview"
+		"clean": "node clean.cjs"
+	},
+	"author": {
+		"name": "author",
+		"email": "test@hotmail.com"
 	},
 	"dependencies": {
 		"fomantic-ui": "^2.9.4",
 		"jquery": "^3.7.1",
 		"react": "^19.1.0",
-		"react-dom": "^19.1.0"
+		"react-dom": "^19.1.0",
+		"swr": "^2.3.4"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.30.1",
